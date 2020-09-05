@@ -1,3 +1,4 @@
 Primitive data type int is used for storing integer value into memory.
+Class Integer is a wrapper class that wraps an int inside it with methods that can be called to work with that int (or maybe not even come with int variables). 
 
-Class Integer is a wrapper class that wraps an int inside it with methods that can be called to work with that int. 
+
