@@ -64,19 +64,20 @@ public class Employee {
 
     public double computePay(int unitsWorked) {
         double payment;
+        System.out.print("Total hours: " + unitsWorked + " Payment: $");
         try {
             if (unitsWorked < 0) {
                 throw new NumberFormatException("Hours cannot be negative");
             } else if (unitsWorked > 40) {
                 throw new TooManyHoursWorkedException("Hours cannot be more than 40");
             } else {
-                System.out.print("Total hours: " + unitsWorked + " Payment: $");
                 return payment = unitsWorked * hourlyPay;
             }
         } catch (NumberFormatException e) {
             System.out.println("Error: " + e);
-            return -1;
+            return 0;
         }
+
     }
 
 }

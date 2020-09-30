@@ -56,10 +56,10 @@ public class Course implements Cloneable {
     @Override
     public String toString() {
         return "Course name: " + name
-                + " Description: " + description
-                + " Department: " + department
-                + " Hours: " + startTime
-                + " Day: " + day;
+                + ", Description: " + description
+                + ", Department: " + department
+                + ", Hours: " + startTime
+                + ", Day: " + day;
     }
 
     @Override
