@@ -4,12 +4,7 @@ import java.util.List;
 
 public class MethodTest {
     private static <T> int count(ArrayList<T> list) {
-        int count = 0;
-        for (T element : list) {
-            if (element != null)
-                count++;
-        }
-        return count;
+        return list.size();
     }
 
     public static void main(String[] args) {
