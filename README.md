@@ -1,1 +1,1 @@
-# SJSU_CS151_F2020
+A folder of assignments for OOP course
